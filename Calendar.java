@@ -1,6 +1,6 @@
 public class Calendar {
     public static void main(String[] args) {
-        int inputYear = 1901; //Integer.parseInt(args[0]);
+        int inputYear = Integer.parseInt(args[0]);
         printDay(inputYear);
     }
     public static void printDay(int inputYear){
